@@ -1,14 +1,14 @@
 PLUGIN=$(shell basename `pwd`)
 OBJ_DIR=bin
 SRC_DIR=src
-BUKKIT_API=lib/bukkit.jar
+APIS=lib/bukkit.jar:lib/Factions.jar
 JAR=$(PLUGIN).jar
 
 include sources.mk
 
 SRCS_FULL=$(addprefix $(SRC_DIR)/,$(SRCS))
 
-JAVACFLAGS = -d $(OBJ_DIR) -cp $(BUKKIT_API)
+JAVACFLAGS = -d $(OBJ_DIR) -cp $(APIS)
 
 $(JAR): clean 
 	mkdir -p $(OBJ_DIR)

@@ -3,7 +3,7 @@ Civilizations
 
 A Bukkit plugin to add economy features to the Factions plugin.
 
-Currently the plugin is designed to compile and run with bukkit-1.3.1-R2.0.
+Currently the plugin is designed to compile and run with bukkit-1.3.2-R1.0.
 Using a different version may cause it to malfunction.
 
 
@@ -11,13 +11,18 @@ Building
 --------
 
 1. Download Bukkit from http://dl.bukkit.org/downloads/bukkit/list/rb/.
-   (Use 1.3.1-R2.0 for best compatibility!)
+   (Use 1.3.2-R1.0 for best compatibility!)
 
 2. Move your download of bukkit to lib/bukkit.jar or create a link in lib called bukkit.jar that points to your copy of bukkit.
 
-2. cd to the project directory.
+3. Download Factions from http://dev.bukkit.org/server-mods/factions/.
+   (Use 1.6.9.1 for best compatibility!)
 
-3. Type 'make' to build the plugin.
+4. Move your download of Factions to lib/Factions.jar or create a link in lib called Factions.jar that points to your copy of the Factions plugin.
+
+5. cd to the project directory.
+
+6. Type 'make' to build the plugin.
 
 
 Installation
