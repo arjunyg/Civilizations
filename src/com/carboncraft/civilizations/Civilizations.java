@@ -20,6 +20,7 @@ public class Civilizations extends JavaPlugin {
     public void onEnable() {
         log.setLevel(Level.INFO);
         server = getServer();
+        server.getPluginManager().registerEvents(new LandClaimListener(), this);
     }
 
     public void onDisable() {

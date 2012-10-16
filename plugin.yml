@@ -2,4 +2,4 @@ name: Civilizations
 author: Arjun Govindjee
 description: Factions with economy integration.
 version: 0.1
-main: com.carboncraft.civilzations.Civilizations
+main: com.carboncraft.civilizations.Civilizations
