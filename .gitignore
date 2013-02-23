@@ -1,3 +1,4 @@
+*.swp
 bin
 lib/bukkit-*.jar
 lib/Factions-*.jar
